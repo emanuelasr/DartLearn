@@ -1,8 +1,10 @@
 class Human {
+  // classe Humana
+  //Atributos do char
   String name = '';
   String height = '';
   String sPower = '';
-
+  // Atributos de Batalha
   var idade = 10;
   var ataque = 100;
   var def = 50;
