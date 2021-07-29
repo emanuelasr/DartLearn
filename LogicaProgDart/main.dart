@@ -8,6 +8,4 @@ void main(){
 
   
   print('idade $idade');
-
-
 }
