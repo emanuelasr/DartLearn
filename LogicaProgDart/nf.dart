@@ -1,12 +1,16 @@
 makeCoffee(String coffee, [String? dairy]) {
+  // classe dinamica onde a minha primeira string não é nula , e a segunda string pode ser nula ou não.
   if (dairy != null) {
-    print('$coffee with $dairy');
+    // condição se for diferente de 'null'
+    print('$coffee with $dairy'); // chama minhas 2 variaveis e printa isso
   } else {
-    print('Black $coffee');
+    // se for nula
+    print('Black $coffee'); // chama só o coffee
   }
 }
 
 void main() {
-  //makeCoffee(null!);
-  print(makeCoffee('coffee'));
+  // metodo main , onde inicia a aplicação
+  makeCoffee('coffee', 'dairy');
+  print(makeCoffee);
 }
