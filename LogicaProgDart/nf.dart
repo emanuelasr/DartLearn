@@ -11,6 +11,8 @@ makeCoffee(String coffee, [String? dairy]) {
 
 void main() {
   // metodo main , onde inicia a aplicação
-  makeCoffee('coffee', 'dairy');
-  print(makeCoffee);
+  makeCoffee('coffee',
+      'dairy'); // chamando minha função estatica , porque ela pode mudar. coloquei os 2 argumentos na condição
+
+  print(makeCoffee); // saiu isso .
 }
