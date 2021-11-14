@@ -26,16 +26,13 @@ void main() {
 
       print('Insira o segundo valor ');
       var num2 = int.parse(stdin.readLineSync()!); // null safety --
-        if(num2 != null){
+      if (num2 != null) {
         var total = num1 + num2;
-         print('A SOMA DESSES NUMEROS É $total');
-          
-        }else{
+        print('A SOMA DESSES NUMEROS É $total');
+      } else {
         print('INSIRA O SEGUNDO VALOR');
-        }
-        break;
-
-
+      }
+      break;
 
     case '2':
       print('Insira o primeiro valor');
